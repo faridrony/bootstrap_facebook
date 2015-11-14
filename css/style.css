@@ -1,0 +1,162 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+body{font-family: 'Raleway', sans-serif;}
+a,a:hover{text-decoration: none;}
+.header-section{
+background: #d55;
+padding: 10px 0 5px;
+box-shadow: 0px 2px 5px 0px #999;
+}
+	.login{float:right}
+.logo {padding: 10px 0 5px}
+.logo i{
+width: 170px;
+height: 34px;
+background-position: 0 0;
+background-image: url(../images/fb.png);
+background-size: auto;
+background-repeat: no-repeat;
+display: inline-block;
+}
+.login label{
+display: block;
+color: #fff;
+padding: 0;
+margin: 0; font-size: 12px;
+font-weight: 100;
+}
+.header-section input.form-control{
+border-radius: 0;
+font-size: 14px;
+padding: 0 10px;
+color: #444;
+height: 25px;
+}
+.header-section input:focus{
+	outline: none;
+border-color: rgba(102, 175, 233, 0);
+} 
+.login{}
+.checkbox{margin-right: 10px}
+.header-section [type="submit"]{
+border-radius: 0;
+text-transform: capitalize;
+padding: 2px 5px;
+font-size: 14px;
+background: #E06B6B;
+color: #fff;
+box-shadow: 1px 1px 11px #B64949;
+}
+.form-inline .form-group {margin-right: 15px;}
+.login .form-group a{color:#fff}
+.form-group a:hover{text-decoration:underline;}
+/********************************* thanks-detail *****************/
+.thanks-detail img{margin:0 auto;}
+.detail-text img{
+	width: 30px;
+height: 30px;
+}
+.detail-text i{
+background-image: url("http://www.unl.edu/band/images/Graphics/UNL%20Facebook%20Logo-web%202014.png");
+width: 100px;
+height: 102px;
+opacity: 0.7;
+background-size: auto;
+background-repeat: no-repeat;
+display: inline-block;
+
+text-align: center;
+
+}
+
+.detail-text{
+width: 45%;
+margin: 0 auto;
+}
+.detail-text h1{
+font-size: 45px;
+color: #d55;font-weight: 600;
+}
+.detail-text p{
+font-size: 25px;
+line-height: 1em;
+color: #43464D;
+}
+.birthday-text{
+font-size: 11px;
+display: block;
+margin-top: 5px;
+}
+
+.signup{font-family: 'Raleway', sans-serif;}
+.signup h2{
+font-size: 45px;
+font-weight: 600;
+margin: 0;
+}
+.signup p{}
+.btn-lg{
+padding: 10px 70px;
+color: #fff;
+text-transform: capitalize;
+
+}
+.btn-lg:hover{
+	color: #fff;
+}
+.btn-lg:active{color: #fff}
+.signup .form-group{
+	margin-bottom: 10px
+}
+.signup .col-sm-6:first-child{padding-right: 20px;}
+
+.signup .form-control{
+	color: #444;
+font-size: 16px;
+height: 44px;
+}
+
+.signup .form-control#sel1{
+height: 35px;
+padding: 5px 10px;
+}
+.radio label{margin-right: 10px;}
+.signup h6{color: #777;}
+.signup p{color: #3C3C3C;font-size: 14px}
+hr{border-top: 1px solid #9C9C9C}
+
+
+/**************** footer **************/
+.bor-bot {
+border-bottom: 1px solid rgba(136, 136, 136, 0.44);
+}
+.footer .nav>li>a {
+position: relative;
+display: block;
+padding: 5px 10px;
+font-size: 12px;
+background:transparent
+}
+
+/****************** media ****************/
+
+@media (max-width: 460px) {
+	.form-inline .form-group {
+		width: 100% !important;
+margin-bottom: 2px;
+	}
+	.header-section {padding: 10px 0 30px;}
+	.header-section [type="submit"] {padding: 5px 15px;}
+	.signup .col-xs-6{width:100%}
+}
+@media (max-width: 768px) {
+	.logo i{display:block;margin:0 auto;}
+	.login{float:none}
+	.form-inline .form-group {width: 40%;float: left;}
+	.header-section [type="submit"] {margin-top: 15px;}
+	.push{float:right}
+	.signup .form-control#sel1 {width: 32%;display: inline;}
+	.detail-text {width: 80%;}
+	.xs-hidden{display:none}
+	.xs-open{display: inherit !important;}
+}
+.xs-open{display:none}
